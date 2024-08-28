@@ -15,7 +15,6 @@ public class JokeMachineControllerTest {
     @Test
     public void testGetSpecificJoke() {
         JokeMachineController controller = new JokeMachineController();
-        String joke = controller.getJokes().get(0);
         Assertions.assertEquals("What sort of car does an egg drive? ---- A yolkswagen!", controller.getJokes().get(0));
         Assertions.assertEquals("Why did the tomato turn red? ---- Because it saw the salad dressing!", controller.getJokes().get(1));
         Assertions.assertEquals("What do you call a bear with no teeth? ---- A gummy bear!", controller.getJokes().get(2));
